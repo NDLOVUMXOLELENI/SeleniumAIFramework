@@ -1,17 +1,57 @@
+# =========================
 # Build folders
+# =========================
 bin/
 obj/
 TestResults/
+publish/
+
+# Allure reports (if using Allure for reporting)
 allure-results/
 allure-report/
 
+# =========================
 # IDE/Editor
+# =========================
 .vscode/
 .idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
+# Rider IDE
+.idea/
+
+# =========================
 # OS files
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # Logs
+# =========================
 *.log
+
+# =========================
+# NuGet packages
+# =========================
+*.nupkg
+packages/
+.nuget/
+
+# =========================
+# Coverage & Test artifacts
+# =========================
+*.coverage
+*.coveragexml
+*.trx
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
