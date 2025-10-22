@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SeleniumAIFramework")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d468d9daf4d1bc64926955d606a78f628517a05")]
 [assembly: System.Reflection.AssemblyProductAttribute("SeleniumAIFramework")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SeleniumAIFramework")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,17 @@
+# Build folders
+bin/
+obj/
+TestResults/
+allure-results/
+allure-report/
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
