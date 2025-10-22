@@ -23,6 +23,15 @@ This framework was designed to showcase **clean, maintainable**, and **productio
 
 ## ⚙️ Features
 
+-   Modular **Page Object Model** design
+-   Cross-browser ready (Chrome by default)
+-   Allure reporting for test results
+-   NUnit test framework integration
+-   Easy-to-read, maintainable test structure
+-   Supports future extensions like parallel execution, CI/CD, and logging
+
+---
+
 ## 🧱 Folder Structure
 
 ```
@@ -33,13 +42,10 @@ SeleniumAIFramework/
 ├── Pages/                     # Page Object Model (POM) classes
 ├── Tests/                     # Test classes
 ├── .gitignore                 # Git ignore rules
-├── Program.cs                 # Main entry point
 ├── README.md                  # Project documentation
 ├── SeleniumAIFramework.csproj # Project config
 └── SeleniumAIFramework.sln    # Solution file
 ```
-
-LoginTests.cs
 
 ## 🧪 Running Tests & Allure Reports
 
@@ -72,9 +78,14 @@ allure serve bin/Debug/net9.0/allure-results
 -   Integrate GitHub Actions for CI/CD
 -   Cross-browser testing (Edge, Firefox)
 -   Add Slack or email notifications for test results
-    | **Language** | C# |
 
 ---
+
+## 📝 Project Info
+
+| Browser          | Framework | Test Framework | Reporting |
+| ---------------- | --------- | -------------- | --------- |
+| Chrome (default) | .NET 9.0  | NUnit          | Allure    |
 
 ## 👨‍💻 Author
 
